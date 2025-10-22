@@ -16,5 +16,10 @@ namespace phan_mem_TN
         {
             InitializeComponent();
         }
+
+        private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
