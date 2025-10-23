@@ -56,7 +56,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\Dự phòng.cs" />
     <Compile Include="DanhSachSinhVien.cs">
       <SubType>Form</SubType>
     </Compile>
