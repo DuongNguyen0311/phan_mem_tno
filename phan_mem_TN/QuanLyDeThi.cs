@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace phan_mem_TN
 {
-    public partial class frmDangNhap : Form
+    public partial class frmQuanLyDeThi : Form
     {
-        public frmDangNhap()
+        public frmQuanLyDeThi()
         {
             InitializeComponent();
         }
 
-        private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }

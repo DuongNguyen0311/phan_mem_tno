@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace phan_mem_TN
 {
-    public partial class frmDangNhap : Form
+    public partial class DanhSachSinhVien : Form
     {
-        public frmDangNhap()
+        public DanhSachSinhVien()
         {
             InitializeComponent();
-        }
-
-        private void windowsUIButtonPanel1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
