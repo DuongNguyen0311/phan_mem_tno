@@ -75,6 +75,12 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="KetQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KetQua.Designer.cs">
+      <DependentUpon>KetQua.cs</DependentUpon>
+    </Compile>
     <Compile Include="NganHangCauHoi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KetQua.resx">
+      <DependentUpon>KetQua.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NganHangCauHoi.resx">
       <DependentUpon>NganHangCauHoi.cs</DependentUpon>
