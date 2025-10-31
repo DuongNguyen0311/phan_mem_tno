@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNganHangCauHoi));
             this.lbltenmon = new System.Windows.Forms.Label();
             this.cbbMonThi = new System.Windows.Forms.ComboBox();
             this.btnThem = new System.Windows.Forms.Button();
@@ -46,11 +45,11 @@
             this.txtDA1 = new System.Windows.Forms.TextBox();
             this.btnNhap = new System.Windows.Forms.Button();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
-            this.btnLoc = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.defaultBarAndDockingController1 = new DevExpress.XtraBars.DefaultBarAndDockingController(this.components);
             this.grdCauHoi = new System.Windows.Forms.DataGridView();
+            this.btnLoc = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -70,10 +69,11 @@
             // 
             // cbbMonThi
             // 
+            this.cbbMonThi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbMonThi.FormattingEnabled = true;
             this.cbbMonThi.Location = new System.Drawing.Point(121, 2);
             this.cbbMonThi.Name = "cbbMonThi";
-            this.cbbMonThi.Size = new System.Drawing.Size(159, 24);
+            this.cbbMonThi.Size = new System.Drawing.Size(350, 28);
             this.cbbMonThi.TabIndex = 1;
             // 
             // btnThem
@@ -135,6 +135,7 @@
             // 
             // txtDA4
             // 
+            this.txtDA4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDA4.Location = new System.Drawing.Point(3, 205);
             this.txtDA4.Multiline = true;
             this.txtDA4.Name = "txtDA4";
@@ -154,6 +155,7 @@
             // 
             // txtNoiDung
             // 
+            this.txtNoiDung.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNoiDung.Location = new System.Drawing.Point(3, 23);
             this.txtNoiDung.Multiline = true;
             this.txtNoiDung.Name = "txtNoiDung";
@@ -174,6 +176,7 @@
             // 
             // txtDA3
             // 
+            this.txtDA3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDA3.Location = new System.Drawing.Point(3, 177);
             this.txtDA3.Multiline = true;
             this.txtDA3.Name = "txtDA3";
@@ -182,6 +185,7 @@
             // 
             // txtDA2
             // 
+            this.txtDA2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDA2.Location = new System.Drawing.Point(3, 149);
             this.txtDA2.Multiline = true;
             this.txtDA2.Name = "txtDA2";
@@ -190,6 +194,7 @@
             // 
             // txtDA1
             // 
+            this.txtDA1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDA1.Location = new System.Drawing.Point(3, 121);
             this.txtDA1.Multiline = true;
             this.txtDA1.Name = "txtDA1";
@@ -221,18 +226,8 @@
             this.radioGroup1.Size = new System.Drawing.Size(33, 105);
             this.radioGroup1.TabIndex = 21;
             // 
-            // btnLoc
-            // 
-            this.btnLoc.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLoc.ImageOptions.SvgImage")));
-            this.btnLoc.Location = new System.Drawing.Point(811, 29);
-            this.btnLoc.Margin = new System.Windows.Forms.Padding(4);
-            this.btnLoc.Name = "btnLoc";
-            this.btnLoc.Size = new System.Drawing.Size(45, 44);
-            this.btnLoc.TabIndex = 22;
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnLoc);
             this.groupBox1.Controls.Add(this.radioGroup1);
             this.groupBox1.Controls.Add(this.txtDA1);
             this.groupBox1.Controls.Add(this.txtDA2);
@@ -267,18 +262,30 @@
             // grdCauHoi
             // 
             this.grdCauHoi.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdCauHoi.Location = new System.Drawing.Point(2, 36);
+            this.grdCauHoi.Location = new System.Drawing.Point(2, 39);
             this.grdCauHoi.Name = "grdCauHoi";
             this.grdCauHoi.RowHeadersWidth = 51;
             this.grdCauHoi.RowTemplate.Height = 24;
-            this.grdCauHoi.Size = new System.Drawing.Size(1109, 288);
+            this.grdCauHoi.Size = new System.Drawing.Size(1109, 285);
             this.grdCauHoi.TabIndex = 27;
+            // 
+            // btnLoc
+            // 
+            this.btnLoc.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnLoc.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLoc.Location = new System.Drawing.Point(489, 1);
+            this.btnLoc.Name = "btnLoc";
+            this.btnLoc.Size = new System.Drawing.Size(51, 31);
+            this.btnLoc.TabIndex = 28;
+            this.btnLoc.Text = "Lọc";
+            this.btnLoc.UseVisualStyleBackColor = false;
             // 
             // frmNganHangCauHoi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1111, 582);
+            this.ClientSize = new System.Drawing.Size(1111, 572);
+            this.Controls.Add(this.btnLoc);
             this.Controls.Add(this.grdCauHoi);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -317,10 +324,10 @@
         private System.Windows.Forms.TextBox txtDA1;
         private System.Windows.Forms.Button btnNhap;
         private DevExpress.XtraEditors.RadioGroup radioGroup1;
-        private DevExpress.XtraEditors.SimpleButton btnLoc;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private DevExpress.XtraBars.DefaultBarAndDockingController defaultBarAndDockingController1;
         private System.Windows.Forms.DataGridView grdCauHoi;
+        private System.Windows.Forms.Button btnLoc;
     }
 }
