@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNganHangCauHoi));
             this.lbltenmon = new System.Windows.Forms.Label();
             this.cbbMonThi = new System.Windows.Forms.ComboBox();
             this.btnThem = new System.Windows.Forms.Button();
@@ -46,7 +45,6 @@
             this.txtDA1 = new System.Windows.Forms.TextBox();
             this.btnNhap = new System.Windows.Forms.Button();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
-            this.btnTim = new DevExpress.XtraEditors.SimpleButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.defaultBarAndDockingController1 = new DevExpress.XtraBars.DefaultBarAndDockingController(this.components);
@@ -228,18 +226,8 @@
             this.radioGroup1.Size = new System.Drawing.Size(33, 105);
             this.radioGroup1.TabIndex = 21;
             // 
-            // btnTim
-            // 
-            this.btnTim.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLoc.ImageOptions.SvgImage")));
-            this.btnTim.Location = new System.Drawing.Point(811, 29);
-            this.btnTim.Margin = new System.Windows.Forms.Padding(4);
-            this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(45, 44);
-            this.btnTim.TabIndex = 22;
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnTim);
             this.groupBox1.Controls.Add(this.radioGroup1);
             this.groupBox1.Controls.Add(this.txtDA1);
             this.groupBox1.Controls.Add(this.txtDA2);
@@ -336,7 +324,6 @@
         private System.Windows.Forms.TextBox txtDA1;
         private System.Windows.Forms.Button btnNhap;
         private DevExpress.XtraEditors.RadioGroup radioGroup1;
-        private DevExpress.XtraEditors.SimpleButton btnTim;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private DevExpress.XtraBars.DefaultBarAndDockingController defaultBarAndDockingController1;
